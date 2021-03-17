@@ -1,0 +1,40 @@
+Package: CAM3
+Type: Package
+Title: Convex Analysis of Mixtures Version 3
+Version: 0.9.9
+Author: Chiung-Ting Wu <ctwu@vt.edu>
+Maintainer: Chiung-Ting Wu <ctwu@vt.edu>
+biocViews: Software, CellBiology, GeneExpression
+Description: An R package for fully unsupervised deconvolution of complex 
+    tissues. It provides basic functions to perform 
+    unsupervised deconvolution on mixture expression profiles by 
+    Convex Analysis of Mixtures (CAM) and some 
+    auxiliary functions to help understand the subpopulation-specific results. 
+    It also implements functions to perform supervised deconvolution based on 
+    prior knowledge of molecular markers, S matrix or A matrix. Combining 
+    molecular markers from CAM and from prior knowledge can achieve 
+    semi-supervised deconvolution of mixtures.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 4.0) 
+Suggests: 
+    knitr,
+    rmarkdown,
+    BiocStyle,
+    testthat,
+    GEOquery,
+    rgl
+VignetteBuilder: knitr
+Imports:
+    methods,
+    debCAM,
+    stats,
+    Biobase,
+    SummarizedExperiment,
+    corpcor,
+    geometry,
+    NMF,
+    nnls,
+    graphics
