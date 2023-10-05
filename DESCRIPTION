@@ -2,7 +2,8 @@ Package: CAM3
 Type: Package
 Title: Convex Analysis of Mixtures Version 3
 Version: 0.99.0
-Authors@R: person("Chiung-Ting", "Wu", email = "ctwu@vt.edu",role = c("aut", "cre"))
+Authors@R: c(person("Chiung-Ting", "Wu", email = "ctwu@vt.edu", role = c("aut", "cre")),
+             person("Dongping", "Du", email = "dpdu@vt.edu", role = "ctb"))
 biocViews: Software, CellBiology, GeneExpression
 Description: An R package for fully unsupervised deconvolution of complex 
     tissues. It provides basic functions to perform 
