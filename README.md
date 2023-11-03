@@ -34,4 +34,4 @@ rCAM3 <- CAM3Run(data, K = 2:5, dim.rdc = 10, thres.low = 0.30, thres.high = 0.9
 ```
 # User Manual
 
-https://htmlpreview.github.io/?https://github.com/ChiungTingWu/CAM3/blob/main/inst/doc/CAM3.html
+https://htmlpreview.github.io/?https://github.com/ChiungTingWu/CAM3/blob/main/vignettes/CAM3.html
