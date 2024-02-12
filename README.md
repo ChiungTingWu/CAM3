@@ -11,13 +11,7 @@ You can install the latest version of CAM3.0 from GitHub by
 ```{r, eval = FALSE}
 devtools::install_github("ChiungTingWu/CAM3")
 ```
-or from Bioconductor by
-```{r, eval = FALSE}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
 
-BiocManager::install("CAM3")
-```
 
 # Quick Start
 
